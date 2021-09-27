@@ -33,7 +33,7 @@ subcommands:
 eg. 
 
 ```shellsession
-$ zenn-importer qitta -user ikawaha -publish -verbose
+$ zenn-importer qiita -user ikawaha -publish -verbose
 https://qiita.com/api/v2/users/ikawaha/items?page=1
 Goa v3 のテストをシュッとする
 人生で何度目かのダブル配列TRIEを書いた
