@@ -116,7 +116,7 @@ Usage of qiita-zenn:
 **Hatena**
 
 ```
-$ go run main.go hatena
+$ zenn-importer hatena
   -apikey string
     	Hatena blog API key (AtomPub API key), see. http://blog.hatena.ne.jp/my/config/detail
   -blog string
