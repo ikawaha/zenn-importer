@@ -17,7 +17,7 @@ Download articles of Qiita/Hatena in Zenn format.
 # Install
 
 ```shellsession
-GO111MODULE=on go get -u github.com/ikawaha/zenn-importer
+go install github.com/ikawaha/zenn-importer@latest
 ```
 
 # Usage
