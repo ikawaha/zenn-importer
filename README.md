@@ -16,6 +16,8 @@ Download articles of Qiita/Hatena in Zenn format.
 
 # Install
 
+Use [release binaries](https://github.com/ikawaha/zenn-importer/releases) or go install.
+
 ```shellsession
 go install github.com/ikawaha/zenn-importer@latest
 ```
