@@ -45,7 +45,7 @@ func NewZennArticleFromQiitaArticle(a *qiita.Article) *ZennArticle {
 		Type:        "tech",
 		Topics:      topics,
 		Published:   false,
-		PublishedAt: a.CreatedAt.Format("2006-01-02 03:04"),
+		PublishedAt: a.CreatedAt.Format("2006-01-02 15:04"),
 		Body:        a.Body,
 		ImageURLs:   a.ImageURLs,
 		Slug:        slug,
