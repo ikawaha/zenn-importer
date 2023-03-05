@@ -1,5 +1,6 @@
 name: Release binaries
 on:
+  workflow_dispatch:
   release:
     types: [published]
 jobs:
