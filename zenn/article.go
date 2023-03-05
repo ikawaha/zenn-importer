@@ -64,7 +64,7 @@ func NewZennArticleFromHatenaEntry(ent *hatena.Entry) *ZennArticle {
 		Type:        "tech",
 		Topics:      topics,
 		Published:   false,
-		PublishedAt: ent.Date.Format("2006-01-02 03:04"),
+		PublishedAt: ent.Date.Format("2006-01-02 15:04"),
 		Body:        ent.Content,
 		ImageURLs:   nil, // TODO
 		Slug:        slug,
