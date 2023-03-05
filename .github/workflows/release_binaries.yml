@@ -7,6 +7,8 @@ jobs:
   release:
     name: Release Go Binary
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     strategy:
       matrix:
         goos: [linux, windows, darwin]
