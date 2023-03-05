@@ -20,9 +20,12 @@ jobs:
             goos: windows
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-go@v3
         with:
           go-version: 'stable'
+          cache: true
       - uses: goreleaser/goreleaser-action@v4
         with:
           distribution: goreleaser
